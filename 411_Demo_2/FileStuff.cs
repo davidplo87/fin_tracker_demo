@@ -16,7 +16,7 @@ namespace _411_Demo_2
 
             if (!File.Exists(DirPath + "//creditkey.txt"))
             {
-                File.Copy("creditkey.txt", DirPath + "//creditkey.txt");
+                
             }
             if (!File.Exists(DirPath + "//daily.csv"))
             {
@@ -24,7 +24,7 @@ namespace _411_Demo_2
             }
             if (!File.Exists(DirPath + "//foodbevkey.txt"))
             {
-                File.Copy("foodbevkey.txt", DirPath + "//foodbevkey.txt");
+               
             }
             if (!File.Exists(DirPath + "//master.csv"))
             {
@@ -32,15 +32,15 @@ namespace _411_Demo_2
             }
             if (!File.Exists(DirPath + "//otherbusinesskey.txt"))
             {
-                File.Copy("otherbusinesskey.txt", DirPath + "//otherbusinesskey.txt");
+                
             }
             if (!File.Exists(DirPath + "//personalkey.txt"))
             {
-                File.Copy("personalkey.txt", DirPath + "//personalkey.txt");
+               
             }
             if (!File.Exists(DirPath + "//utilrentkey.txt"))
             {
-                File.Copy("utilrentkey.txt", DirPath + "//utilrentkey.txt");
+               
             }
         }
     }
