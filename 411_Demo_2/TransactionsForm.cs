@@ -361,12 +361,12 @@ namespace _411_Demo_2
 
         private void linkDownload_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("Saving_Bank_Statement.mp4");
+            
         }
 
         private void linkImport_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("Importing_Bank_Statement.mp4");
+            
         }
     }
 }
