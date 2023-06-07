@@ -31,6 +31,7 @@ namespace _411_Demo_2
         //Add only new transactions from import to MasterList, write new MasterList, and bind
         private void btnImport_Click(object sender, EventArgs e)
         {
+            /*
             string importFileName;
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "csv files (*.csv) | *.csv";
@@ -128,6 +129,7 @@ namespace _411_Demo_2
                     BindDisplayList();
                 }
             }
+            */
         }
 
         private void btnApplyFilter_Click(object sender, EventArgs e)

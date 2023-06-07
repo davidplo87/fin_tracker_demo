@@ -17,11 +17,13 @@ namespace _411_Demo_2
 
         public static void ReadInKeys()
         {
+            /*
             CreditKey = File.ReadAllLines(FileStuff.DirPath + "//creditkey.txt");
             FoodBevKey = File.ReadAllLines(FileStuff.DirPath + "//foodbevkey.txt");
             OtherBusinessKey = File.ReadAllLines(FileStuff.DirPath + "//otherbusinesskey.txt");
             PersonalKey = File.ReadAllLines(FileStuff.DirPath + "//personalkey.txt");
             UtilRentKey = File.ReadAllLines(FileStuff.DirPath + "//utilrentkey.txt");
+            */
         }
     }
 }
